@@ -99,3 +99,18 @@
   .lesson-plan .song {
     background-color: yellow;
   }
+
+  .lesson-photo {
+    flex-grow: 1;
+    max-width: 50%;
+  }
+
+  .lesson-content {
+    flex-grow: 1;
+  }
+
+  .lesson {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
