@@ -37,6 +37,7 @@
     margin: 0; /* Important for vertical align on mobile phones */
   }
 
+
   /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
@@ -87,10 +88,14 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    flex-wrap: wrap;
   }
 
   .seed, .sprout{
     background-color: lightblue;
     flex-grow: 1;
+    flex-wrap: wrap;
+  }
+
+  .lesson-plan .song {
+    background-color: yellow;
   }

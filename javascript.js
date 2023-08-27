@@ -1,4 +1,4 @@
-// Change drop down content for cirlce time or bricks
+/*Change drop down content for cirlce time or bricks
 
 const select = document.querySelector("#curriculum");
 const para = document.querySelector(".para");
@@ -17,7 +17,8 @@ function setCurriculum() {
     }
 }
 
-
+*/
+/*Show or hide the divs for bricks / aep curriculum
 $('.div-hide-show').hide();
 
 $('#curriculum').change(function () {
@@ -25,6 +26,9 @@ $('#curriculum').change(function () {
     $('#' + this.value).show();
 
 });
+
+*/
+
 
 // Hide or show content based on curriculum shown;
 
