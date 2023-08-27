@@ -1,3 +1,7 @@
+* {
+  max-width: 100vw;
+}
+
 /* Navbar container */
 .navbar {
     overflow: hidden;
@@ -66,4 +70,26 @@
   /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  /*Curriculum drop down menu*/
+  .curriculum {
+    text-decoration: none;
+  }
+
+  .div-hide-show {
+    display: none;
+  }
+
+  /* Seed and Sprout curriculum */
+
+  .seed-sprout {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .seed, .sprout{
+    background-color: lightblue;
+    flex-grow: 1;
   }

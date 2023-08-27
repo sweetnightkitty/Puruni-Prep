@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>January</title>
     <link rel="stylesheet" href="../styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
     <header>
         <div class="navbar">
             <a href="../index.html" class="logo">Puruni English</a>
             <div class="dropdown">
-            <button class="dropbtn">Month
+            <button class="dropbtn">January
                 <i class="i-drop"></i>
             </button>
             <div class="dropdown-content">
@@ -31,5 +32,27 @@
             </div>    
         </div>
     </header>
+
+    <h1>January</h1>
+
+    <label for="curriculum"></label>
+    <select id="curriculum">
+        <option value="">Choose Curriculum</option>
+        <option value="bricks">Bricks</option>
+        <option value="circle">Circle Time</option>
+    </select>
+
+    <p class="para"></p>
+
+<div id="bricks" class="div-hide-show">
+    Bricks
+</div>
+
+<div id="circle" class="div-hide-show">
+    Circle Time
+</div>
+
+    <script src="../javascript.js"></script>
 </body>
 </html>
+
