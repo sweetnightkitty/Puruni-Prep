@@ -1,1 +1,2 @@
 # Puruni-Prep
+This is a simple website that I created as a way to organize Puruni teacher files: curriculum, lesson plans, flashcards worksheets and other printable materials, into an easy to use setup to reduce the burden of planning and preparing for Puruni English teachers.
